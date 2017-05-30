@@ -1,0 +1,55 @@
+1.32
+Add a parameter in the class between the (), like Circle(String myName), and add name = myName withing the class.
+1.33
+public void send(String why){ 
+}
+1.34
+public int average(int alpha, int beta){
+	alpha = beta + alpha;
+	return alpha;
+}
+1.35
+Object
+Class: College textbook
+1.36
+It might be possible, as long as attributes don't overlap. If they do, one class would overwrite each other with new values and possibly create a not so desirable result.
+2.6
+public class Student(){
+}
+
+public class LabClass(){
+}
+2.11
+First difference is that constructors have the same name as the class,
+and the second is that the name immidiatly follows public, instead of a data type or void in between.
+2.17
+private int status;
+2.21
+public Pet(String petsName){
+	name = petsName;
+}
+2.22
+public Date(String setMonth, int setDate, int setYear){
+}
+2.23
+The only notable difference bewtween them is that they have different names and return different values. The layout is identical as they are both methods meant to return a certain value.
+2.26
+public void getTotal(){
+	return total;
+}
+2.28
+getPrice only returns a value while printTicket displays through the system a result and changes a few values to reflect the ticket getting printed off.
+2.29
+They don't need them. The insertMoney doesn't need to return a value as it is only adding money to the machine, and the printTicket displays through the system the result, so a return value would be pointless.
+2.33
+score = score + points;
+2.35
+price = price - amount;
+2.37
+public void prompt(){
+	System.out.println("Please insert the correct amount of money.")
+}
+2.41
+public void showPrice(){
+	System.out.println("The price of a ticket is " + price +" cents."
+}
