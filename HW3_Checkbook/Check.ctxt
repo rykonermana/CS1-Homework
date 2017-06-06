@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Check
+comment1.params=number\ payment\ why\ reciever
+comment1.target=Check(int,\ double,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Check\r\n
+comment2.params=
+comment2.target=void\ printCheck()
+comment3.params=payment
+comment3.target=void\ adjustamount(double)
+comment4.params=why
+comment4.target=void\ adjustReason(java.lang.String)
+comment5.params=number
+comment5.target=void\ adjustCheckNumber(int)
+comment6.params=reciever
+comment6.target=void\ adjustPayee(java.lang.String)
+numComments=7
