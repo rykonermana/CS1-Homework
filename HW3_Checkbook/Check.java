@@ -40,4 +40,20 @@ public class Check
     public void adjustPayee(String reciever){
         payee=reciever;
     }
+    
+    public double returnAmount(){
+        return amount;
+    }
+    
+    public String returnReason(){
+        return reason;
+    }
+    
+    public int returnCheckNumber(){
+        return checkNumber;
+    }
+    
+    public String returnPayee(){
+        return payee;
+    }
 }

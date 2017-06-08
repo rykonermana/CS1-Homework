@@ -8,21 +8,21 @@ import java.util.*;
 public class Checkbook
 {
     // instance variables - replace the example below with your own
-    private ArrayList<Check> checks;
+    private ArrayList<Check> checkList;
     /**
      * Constructor for objects of class Checkbook
      */
     public Checkbook()
     {
-        checks = new ArrayList<Check>();
+        checkList = new ArrayList<Check>();
     }
     
     public void addCheck(Check newCheck){
-        checks.add(newCheck);
+        checkList.add(newCheck);
     }
     
     public void printList(){
-        for(Check check : checks) {
+        for(Check check : checkList) {
            check.printCheck(); 
         }
     }
