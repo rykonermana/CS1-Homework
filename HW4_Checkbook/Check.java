@@ -1,10 +1,10 @@
 import java.io.Serializable;
 public class Check implements Serializable{
     // instance variables - replace the example below with your own
-    private int checkNumber;
-    private double amount;
-    private String reason;
-    private String payee;
+    public int checkNumber;
+    public double amount;
+    public String reason;
+    public String payee;
 
     /**
      * Constructor for objects of class Check

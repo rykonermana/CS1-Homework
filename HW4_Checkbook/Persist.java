@@ -7,7 +7,7 @@ public class Persist{
         Check c4= new Check(104, 6.57, "Chi", "Delta");
         Check c5= new Check(105, 6.49, "Psi", "Epsilon");
         try {
-            FileOutputStream f = new FileOutputStream("ObjectKeeper.txt");
+            FileOutputStream f = new FileOutputStream("ObjectKeeper.txt", true);
             ObjectOutputStream out = new ObjectOutputStream(f);
             
             out.writeObject(c1);
