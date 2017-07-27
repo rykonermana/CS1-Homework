@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=FileManager
+comment1.params=fileName
+comment1.target=FileManager(java.lang.String)
+comment2.params=
+comment2.target=void\ save()
+comment3.params=
+comment3.target=void\ load()
+comment4.params=newFileName
+comment4.target=void\ setFileName(java.lang.String)
+comment5.params=
+comment5.target=void\ getFileName()
+numComments=6
